@@ -1,0 +1,18 @@
+{
+  "name": "griots_web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "create": "chmod +x create_users.sh && chmod +x create_books.sh && chmod +x create_planning.sh",
+    "create_pages": "./create_users.sh && ./create_books.sh && ./create_planning.sh",
+    "dev": "PORT=5000 next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "13.4.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
